@@ -1,0 +1,11 @@
+.idea/
+.vagrant/
+node_modules/
+puphpet/
+assets/vendor/
+rebuild2/
+bkp/
+dist/
+source/images/unoptimized
+!source/images/unoptimized/.gitkeep
+package-lock.json

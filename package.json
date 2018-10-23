@@ -1,0 +1,34 @@
+{
+  "name": "gulp-default",
+  "version": "1.0.0",
+  "author": "Felipe Bremer de Moraes",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-less": "^1.3.6",
+    "jquery": "^3.3.1",
+    "path": "^0.4.9",
+    "vinyl-source-stream": "^1.0.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "bootstrap-less": "^3.3.8",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject-partials": "^1.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^5.1.0",
+    "reset-css": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
