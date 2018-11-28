@@ -11,6 +11,10 @@
         <title>Multimídia Digital</title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500i,700,700i" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+        
         <!-- build:css -->
         This is to css links from gulp
         Everything here will be replaced
@@ -24,14 +28,14 @@
 
     <section class="conection-view">
         <div class="container">
-            <h1>Estratégia</h1>
+            <h1>ESTRATÉGIA</h1>
         </div>
     </section>
 
     <section class="about-mmd">
         <div class="container">
             <div class="title-about">
-                <h2><span>So</span>bre</h2>
+                <h2><span>SO</span>BRE</h2>
             </div>
             <div class="text-about">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -48,58 +52,62 @@
     </section>
 
     <section class="products-apresentation">
-        <div class="container">
-            <h2>PRODU<span>TOS</span></h2>
-            
-            <!-- e-commerce product -->
-            <section class="product-box commerce-box">
-                <div class="title-product">
-                    <img src="/assets/images/ico-cart.png">
-                    <h3>E-COMMERCE</h3>
-                </div>
-                <div class="text-product">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </section>
-            <!-- suport product -->
-            <section class="product-box commerce-box">
-                <div class="title-product">
-                    <img src="/assets/images/ico-cart.png">
-                    <h3>Suporte e Evolução</h3>
-                </div>
-                <div class="text-product">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </section>
-            <!-- websites product -->
-            <section class="product-box commerce-box">
-                <div class="title-product">
-                    <img src="/assets/images/ico-cart.png">
-                    <h3>SITES</h3>
-                </div>
-                <div class="text-product">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </section>
+        <div class="container" >
+            <div class="title-product-container">
+                <h2>PRODU<span>TOS</span></h2>                
+            </div>
+
+            <div class="all-products-slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+                <!-- e-commerce product -->
+                <section class="product-box commerce-box">
+                    <div class="title-product">
+                        <img src="/assets/images/ico-cart.png">
+                        <h3>E-COMMERCE</h3>
+                    </div>
+                    <div class="text-product">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </section>
+                <!-- suport product -->
+                <section class="product-box commerce-box">
+                    <div class="title-product">
+                        <img src="/assets/images/ico-cart.png">
+                        <h3>Suporte e Evolução</h3>
+                    </div>
+                    <div class="text-product">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </section>
+                <!-- websites product -->
+                <section class="product-box commerce-box">
+                    <div class="title-product">
+                        <img src="/assets/images/ico-cart.png">
+                        <h3>SITES</h3>
+                    </div>
+                    <div class="text-product">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </section>
+            </div>
             <!-- contact bar -->
             <section class="contact-bar">
                 <div class="img-contact">
@@ -114,20 +122,25 @@
 
     <section class="workflow-mmd">
         <div class="container">
-            <h2><span>FL</span>OW</h2>
-            
+            <div class="tittle-flow-container">
+                <h2><span>FL</span>OW</h2>
+            </div>
             <div class="left-box-flow">
                 <section class="subbox-flow subbox-flow-alignment">
                     <div class="subbox-img">
                         <img src="/assets/images/ico-flow-people.png">
                     </div>
 
-                    <div>
-                        <h3>Alinhamento</h3>    
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute iru</p>    
+                    <div class="box-text-container">
+                        <div class="sub-title-flor">
+                            <h3>Alinhamento</h3>                                
+                        </div>
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute iru</p>        
+                        </div>
                     </div>
                 </section>
 
@@ -259,9 +272,10 @@
     <!-- FOOTER -->
     <partial src="partials/shared/footer.html"></partial>
     <!-- FOOTER -->
-<!-- build:js -->
-This is to js links from gulp
-Everything here will be replaced
-<!-- endbuild -->
+    
+    <!-- build:js -->
+    This is to js links from gulp
+    Everything here will be replaced
+    <!-- endbuild -->
 </body>
 </html>

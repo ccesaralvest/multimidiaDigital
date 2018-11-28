@@ -5,21 +5,61 @@
 
 .main-menu {
 	width: 100%;
+	margin-top: 47px;
+
+	// Logo
 	.logo-menu {
 		width: 20%;
+		max-width: 223px;
 		display: inline-block;
+		margin-left: 50px;
 		img {
 			width: 100%;
 		}
 	}
-}
 
-.list-menu {
-	display: inline-block;
-	width: 70%;
-
-	li {
+	// Options menu
+	.list-menu {
 		display: inline-block;
+		width: 70%;
+		float: right;
+		margin-top: 10px;
+
+		// Tablet
+		@media screen and (max-width: 992px) {
+			margin-top: 5px;
+		}
+
+		li {
+			display: inline-block;
+			width:  16%;
+			text-align: center;
+			font-size: 18px;
+			vertical-align: middle;
+
+			// Tablet
+			@media screen and (max-width: 992px) {
+				font-size: 15px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #fff;
+			}
+		}
+	}
+	.list-social {
+		li {
+			width: 30%;
+			text-align: center;
+
+			// Tablet
+			@media screen and (max-width: 992px) {
+				width: 43%;
+
+			}
+
+		}
 	}
 }
 
